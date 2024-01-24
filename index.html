@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" href="images\—Pngtree—letter s logo png vector_6616257.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/3c16979b82.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <h6 class="sweety">SWEETY <br>PORTFOLIO</h6>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#Services">My Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closeMenu()" ></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openMenu()" ></i>
+        </nav>
+      
+            <div class="header-text">
+                <p>Hi There, I'm <span>Sweety</span></p>
+                <br>
+                <p class="web">Web Designer</p>
+            </div>
+        
+      
+        
+        </div>
+
+    </div>
+    <!--About-->
+    <div id="about">
+        <div class="container">
+        <div class="row">
+            <div class="col1">
+                <h1 class="abt">About me</h1>
+                <p>Hello I'm Sweety. I'm more into web development and web designing.My educational background includes B.E from Government College of Engineerinng, Tirunelveli. I am eager to contribute my technical and creative skills to a dynamic team, and my collaborative nature and attention to detail make me an asset for web design projects.</p>
+            </div>
+            <div class="col2">
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')"> Skills</p>
+                    <p class="tab-links active-links" onclick="opentab('Education')" >Education</p>
+                    <p class="tab-links active-links" onclick="opentab('Experience')" >Certificates</p>
+                </div>
+                <div class="tab-contents active-tabs" id="Skills">
+                    <ul>
+                        <li><span>Web development</span><br>Designing Web interface<br><a href="https://sweetyserina.github.io/Fitness_Web/">Project Link <i class="fa-solid fa-link"></i></a></li>
+                        <li><span> App development</span><br>Designing Android App</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2020-2024</span><br>GCE,Tirunelveli<br>B.E in ECE</li>
+                        <li><span> 2018-2020</span><br>James Memo. Matric.Hr.Sec.School<br>High School Education</li>
+                        <li><span> 2016-2018</span><br>James Memo. Matric.Hr.Sec.School<br>Secondary School Education</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Internship </span><a href="https://drive.google.com/file/d/1w97CRPzXgLmPQSjF7uOr6on-9NK7MjF0/view?usp=drivesdk"><i class="fa-solid fa-link"></i></a><br>Web Development<br>Webgapp Solutions,Madurai></li>
+                        <li><span> Certificate </span><br>Web Development<br><a href="https://drive.google.com/file/d/1w97CRPzXgLmPQSjF7uOr6on-9NK7MjF0/view?usp=drivesdk">Link <i class="fa-solid fa-link"></i></a></li>
+                        <li><span> Certificate </span><br>App Development<br><a href="https://drive.google.com/file/d/1cU-icNpJPPGvSCm7EIP0l1IWp86ARQ7h/view?usp=drivesdk">Link <i class="fa-solid fa-link"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!--services-->
+    <div id="Services">
+        <div class="container">
+            <div >
+                <h1>Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. </p>
+                        <a href="https://en.wikipedia.org/wiki/Web_design">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Android App Development</h2>
+                        <p>Android software development is the process by which applications are created for devices running the Android operating system.  </p>
+                        <a href="https://en.wikipedia.org/wiki/Android_software_development">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Web Development</h2>
+                        <p>Web development is the work involved in developing a website for the Internet or an intranet. </p>
+                        <a href="https://en.wikipedia.org/wiki/Web_development">Learn more</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Porfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1>My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images\work-1.png">
+                    <div class="layer">
+                        <h3>Fitness App</h3>
+                        <p>This app provides health regarding information to keep a person fit and healthy</p>
+                        <a href="https://sweetyserina.github.io/Fitness_Web/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images\work-2.png">
+                    <div class="layer">
+                        <h3>Social media App</h3>
+                        <p>This app connects people all over the world</p>
+                        <a href=" https://sweetyserina.github.io/Insta/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images\work-3.png">
+                    <div class="layer">
+                        <h3>News App</h3>
+                        <p>This app gives the information about what happening around us</p>
+                        <a href="https://sweetyserina.github.io/News_Web/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>sweetyserinac@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7904228558</p>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sweety-c-761a26250"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/SweetySerina "><i class="fa-brands fa-github"></i></a>
+                    </div>
+                   
+                        <a href="c:\Users\SWEETY\Downloads\Sweety_Resume  (4) (1).pdf" class="btn">Download Resume</a>
+                   
+                </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your name" required>
+                            <input type="email" name="Email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy; sweety</p>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+        }
+        function opentab(tabname)
+        {
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tabs");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tabs");
+        }
+    </script>
+    <script>
+        var sidemnu = document.getElementById("sidemenu");
+
+        function openMenu(){
+            sidemnu.style.right = "0";
+        }
+        function closeMenu(){
+            sidemnu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyGwcCTAFGGeDRyvddSiqmXXVVM_wTolQ3Nfgp8LwNSRweLWEhFsUkN3pN54iiKhYM6/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
